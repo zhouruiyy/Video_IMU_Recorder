@@ -16,6 +16,21 @@
 		3E054F8D249A1B8200F025C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054F8C249A1B8200F025C8 /* main.m */; };
 		3E054F97249A1B8200F025C8 /* Video_IMU_RecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054F96249A1B8200F025C8 /* Video_IMU_RecorderTests.m */; };
 		3E054FA2249A1B8200F025C8 /* Video_IMU_RecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FA1249A1B8200F025C8 /* Video_IMU_RecorderUITests.m */; };
+		3E054FB5249A1C3400F025C8 /* ZRRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FB4249A1C3400F025C8 /* ZRRecorderViewController.m */; };
+		3E054FBB249B142200F025C8 /* ZRUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FBA249B142200F025C8 /* ZRUtils.m */; };
+		3E054FBE249B3AE400F025C8 /* ZRVideoOutputFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FBD249B3AE400F025C8 /* ZRVideoOutputFrameData.m */; };
+		3E054FC2249B3DF000F025C8 /* ZRMovieWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FC1249B3DF000F025C8 /* ZRMovieWriter.m */; };
+		3E054FC5249B3E8400F025C8 /* ZRCamerIntrinsicMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FC4249B3E8400F025C8 /* ZRCamerIntrinsicMatrix.swift */; };
+		3E054FC8249B403900F025C8 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FC6249B403800F025C8 /* UIView+Toast.m */; };
+		3E054FCB249B423200F025C8 /* ZRLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FCA249B423100F025C8 /* ZRLocationManager.m */; };
+		3E054FCE249B42AE00F025C8 /* ZRCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E054FCD249B42AE00F025C8 /* ZRCameraManager.m */; };
+		3EA53B5E249C9280002FEC4A /* ZRCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53B5D249C9280002FEC4A /* ZRCameraViewController.m */; };
+		3EA53B62249C93EA002FEC4A /* ZRCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53B61249C93E9002FEC4A /* ZRCameraView.m */; };
+		3EA53B65249CA157002FEC4A /* ZRDeviceMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53B64249CA157002FEC4A /* ZRDeviceMotionManager.m */; };
+		3EA53B68249CBB89002FEC4A /* ZRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53B67249CBB89002FEC4A /* ZRBaseView.m */; };
+		3EA53B6C24A05CB7002FEC4A /* ZRIMUData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53B6B24A05CB7002FEC4A /* ZRIMUData.m */; };
+		3EA53B6F24A09E48002FEC4A /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53B6E24A09E47002FEC4A /* NSDate+Format.m */; };
+		3EA53B7224A0A1CB002FEC4A /* ZRGPSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA53B7124A0A1CB002FEC4A /* ZRGPSData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +69,36 @@
 		3E054F9D249A1B8200F025C8 /* Video_IMU_RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Video_IMU_RecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E054FA1249A1B8200F025C8 /* Video_IMU_RecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video_IMU_RecorderUITests.m; sourceTree = "<group>"; };
 		3E054FA3249A1B8200F025C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E054FB3249A1C3400F025C8 /* ZRRecorderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRRecorderViewController.h; sourceTree = "<group>"; };
+		3E054FB4249A1C3400F025C8 /* ZRRecorderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRRecorderViewController.m; sourceTree = "<group>"; };
+		3E054FB9249B142200F025C8 /* ZRUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRUtils.h; sourceTree = "<group>"; };
+		3E054FBA249B142200F025C8 /* ZRUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRUtils.m; sourceTree = "<group>"; };
+		3E054FBC249B3AE400F025C8 /* ZRVideoOutputFrameData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRVideoOutputFrameData.h; sourceTree = "<group>"; };
+		3E054FBD249B3AE400F025C8 /* ZRVideoOutputFrameData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRVideoOutputFrameData.m; sourceTree = "<group>"; };
+		3E054FC0249B3DF000F025C8 /* ZRMovieWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRMovieWriter.h; sourceTree = "<group>"; };
+		3E054FC1249B3DF000F025C8 /* ZRMovieWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRMovieWriter.m; sourceTree = "<group>"; };
+		3E054FC3249B3E8400F025C8 /* Video_IMU_Recorder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Video_IMU_Recorder-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E054FC4249B3E8400F025C8 /* ZRCamerIntrinsicMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZRCamerIntrinsicMatrix.swift; sourceTree = "<group>"; };
+		3E054FC6249B403800F025C8 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		3E054FC7249B403900F025C8 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		3E054FC9249B423100F025C8 /* ZRLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRLocationManager.h; sourceTree = "<group>"; };
+		3E054FCA249B423100F025C8 /* ZRLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRLocationManager.m; sourceTree = "<group>"; };
+		3E054FCC249B42AE00F025C8 /* ZRCameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRCameraManager.h; sourceTree = "<group>"; };
+		3E054FCD249B42AE00F025C8 /* ZRCameraManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRCameraManager.m; sourceTree = "<group>"; };
+		3EA53B5C249C9280002FEC4A /* ZRCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRCameraViewController.h; sourceTree = "<group>"; };
+		3EA53B5D249C9280002FEC4A /* ZRCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRCameraViewController.m; sourceTree = "<group>"; };
+		3EA53B60249C93E9002FEC4A /* ZRCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRCameraView.h; sourceTree = "<group>"; };
+		3EA53B61249C93E9002FEC4A /* ZRCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRCameraView.m; sourceTree = "<group>"; };
+		3EA53B63249CA157002FEC4A /* ZRDeviceMotionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRDeviceMotionManager.h; sourceTree = "<group>"; };
+		3EA53B64249CA157002FEC4A /* ZRDeviceMotionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRDeviceMotionManager.m; sourceTree = "<group>"; };
+		3EA53B66249CBB89002FEC4A /* ZRBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRBaseView.h; sourceTree = "<group>"; };
+		3EA53B67249CBB89002FEC4A /* ZRBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRBaseView.m; sourceTree = "<group>"; };
+		3EA53B6A24A05CB7002FEC4A /* ZRIMUData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRIMUData.h; sourceTree = "<group>"; };
+		3EA53B6B24A05CB7002FEC4A /* ZRIMUData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRIMUData.m; sourceTree = "<group>"; };
+		3EA53B6D24A09E47002FEC4A /* NSDate+Format.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Format.h"; sourceTree = "<group>"; };
+		3EA53B6E24A09E47002FEC4A /* NSDate+Format.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Format.m"; sourceTree = "<group>"; };
+		3EA53B7024A0A1CB002FEC4A /* ZRGPSData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRGPSData.h; sourceTree = "<group>"; };
+		3EA53B7124A0A1CB002FEC4A /* ZRGPSData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRGPSData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +153,14 @@
 				3E054F7B249A1B7A00F025C8 /* AppDelegate.m */,
 				3E054F7D249A1B7A00F025C8 /* SceneDelegate.h */,
 				3E054F7E249A1B7A00F025C8 /* SceneDelegate.m */,
-				3E054F80249A1B7A00F025C8 /* ViewController.h */,
-				3E054F81249A1B7A00F025C8 /* ViewController.m */,
+				3EA53B6924A05BE2002FEC4A /* Models */,
+				3EA53B5F249C93C1002FEC4A /* Views */,
+				3EA53B5B249C9259002FEC4A /* Controllers */,
+				3E054FBF249B3DDD00F025C8 /* Video */,
+				3E054FB2249A1BFB00F025C8 /* Utils */,
+				3E054FB1249A1BF900F025C8 /* Sensor */,
+				3E054FB0249A1BF700F025C8 /* Camera */,
+				3E054FAF249A1BF300F025C8 /* Location */,
 				3E054F83249A1B7A00F025C8 /* Main.storyboard */,
 				3E054F86249A1B8200F025C8 /* Assets.xcassets */,
 				3E054F88249A1B8200F025C8 /* LaunchScreen.storyboard */,
@@ -135,6 +186,94 @@
 				3E054FA3249A1B8200F025C8 /* Info.plist */,
 			);
 			path = Video_IMU_RecorderUITests;
+			sourceTree = "<group>";
+		};
+		3E054FAF249A1BF300F025C8 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				3E054FC9249B423100F025C8 /* ZRLocationManager.h */,
+				3E054FCA249B423100F025C8 /* ZRLocationManager.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		3E054FB0249A1BF700F025C8 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				3E054FC4249B3E8400F025C8 /* ZRCamerIntrinsicMatrix.swift */,
+				3E054FC3249B3E8400F025C8 /* Video_IMU_Recorder-Bridging-Header.h */,
+				3E054FCC249B42AE00F025C8 /* ZRCameraManager.h */,
+				3E054FCD249B42AE00F025C8 /* ZRCameraManager.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		3E054FB1249A1BF900F025C8 /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				3EA53B63249CA157002FEC4A /* ZRDeviceMotionManager.h */,
+				3EA53B64249CA157002FEC4A /* ZRDeviceMotionManager.m */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		3E054FB2249A1BFB00F025C8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3E054FC7249B403900F025C8 /* UIView+Toast.h */,
+				3E054FC6249B403800F025C8 /* UIView+Toast.m */,
+				3E054FB9249B142200F025C8 /* ZRUtils.h */,
+				3E054FBA249B142200F025C8 /* ZRUtils.m */,
+				3EA53B6D24A09E47002FEC4A /* NSDate+Format.h */,
+				3EA53B6E24A09E47002FEC4A /* NSDate+Format.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3E054FBF249B3DDD00F025C8 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				3E054FC0249B3DF000F025C8 /* ZRMovieWriter.h */,
+				3E054FC1249B3DF000F025C8 /* ZRMovieWriter.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		3EA53B5B249C9259002FEC4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E054F80249A1B7A00F025C8 /* ViewController.h */,
+				3E054F81249A1B7A00F025C8 /* ViewController.m */,
+				3E054FB3249A1C3400F025C8 /* ZRRecorderViewController.h */,
+				3E054FB4249A1C3400F025C8 /* ZRRecorderViewController.m */,
+				3EA53B5C249C9280002FEC4A /* ZRCameraViewController.h */,
+				3EA53B5D249C9280002FEC4A /* ZRCameraViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3EA53B5F249C93C1002FEC4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EA53B60249C93E9002FEC4A /* ZRCameraView.h */,
+				3EA53B61249C93E9002FEC4A /* ZRCameraView.m */,
+				3EA53B66249CBB89002FEC4A /* ZRBaseView.h */,
+				3EA53B67249CBB89002FEC4A /* ZRBaseView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EA53B6924A05BE2002FEC4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E054FBC249B3AE400F025C8 /* ZRVideoOutputFrameData.h */,
+				3E054FBD249B3AE400F025C8 /* ZRVideoOutputFrameData.m */,
+				3EA53B6A24A05CB7002FEC4A /* ZRIMUData.h */,
+				3EA53B6B24A05CB7002FEC4A /* ZRIMUData.m */,
+				3EA53B7024A0A1CB002FEC4A /* ZRGPSData.h */,
+				3EA53B7124A0A1CB002FEC4A /* ZRGPSData.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +343,7 @@
 				TargetAttributes = {
 					3E054F76249A1B7A00F025C8 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					3E054F91249A1B8200F025C8 = {
 						CreatedOnToolsVersion = 11.5;
@@ -267,10 +407,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA53B65249CA157002FEC4A /* ZRDeviceMotionManager.m in Sources */,
+				3EA53B6C24A05CB7002FEC4A /* ZRIMUData.m in Sources */,
+				3E054FBE249B3AE400F025C8 /* ZRVideoOutputFrameData.m in Sources */,
+				3EA53B7224A0A1CB002FEC4A /* ZRGPSData.m in Sources */,
+				3EA53B5E249C9280002FEC4A /* ZRCameraViewController.m in Sources */,
 				3E054F82249A1B7A00F025C8 /* ViewController.m in Sources */,
+				3EA53B6F24A09E48002FEC4A /* NSDate+Format.m in Sources */,
 				3E054F7C249A1B7A00F025C8 /* AppDelegate.m in Sources */,
+				3E054FC2249B3DF000F025C8 /* ZRMovieWriter.m in Sources */,
+				3E054FCE249B42AE00F025C8 /* ZRCameraManager.m in Sources */,
+				3E054FB5249A1C3400F025C8 /* ZRRecorderViewController.m in Sources */,
+				3E054FBB249B142200F025C8 /* ZRUtils.m in Sources */,
+				3EA53B68249CBB89002FEC4A /* ZRBaseView.m in Sources */,
+				3E054FCB249B423200F025C8 /* ZRLocationManager.m in Sources */,
+				3E054FC5249B3E8400F025C8 /* ZRCamerIntrinsicMatrix.swift in Sources */,
 				3E054F8D249A1B8200F025C8 /* main.m in Sources */,
+				3E054FC8249B403900F025C8 /* UIView+Toast.m in Sources */,
 				3E054F7F249A1B7A00F025C8 /* SceneDelegate.m in Sources */,
+				3EA53B62249C93EA002FEC4A /* ZRCameraView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +594,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58CJAXYU38;
 				INFOPLIST_FILE = Video_IMU_Recorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +605,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.Video-IMU-Recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 20200601_1_wildcard;
+				SWIFT_OBJC_BRIDGING_HEADER = "Video_IMU_Recorder/Camera/Video_IMU_Recorder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -455,7 +617,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58CJAXYU38;
 				INFOPLIST_FILE = Video_IMU_Recorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +628,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.Video-IMU-Recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 20200601_1_wildcard;
+				SWIFT_OBJC_BRIDGING_HEADER = "Video_IMU_Recorder/Camera/Video_IMU_Recorder-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -470,6 +638,7 @@
 		3E054FAA249A1B8200F025C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Video_IMU_RecorderTests/Info.plist;
@@ -489,6 +658,7 @@
 		3E054FAB249A1B8200F025C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Video_IMU_RecorderTests/Info.plist;
@@ -508,6 +678,7 @@
 		3E054FAD249A1B8200F025C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Video_IMU_RecorderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -525,6 +696,7 @@
 		3E054FAE249A1B8200F025C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Video_IMU_RecorderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
